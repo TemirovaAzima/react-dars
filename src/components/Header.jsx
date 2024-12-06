@@ -1,8 +1,14 @@
-const Header = ()=>{
+import React from 'react'
+const Header =()=>{
     return(
-        <div>
-            <h1>Hello react</h1>
-        </div>
+        <header>
+            <h1>Welcome To My website </h1>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </nav>
+        </header>
     )
 }
 export default Header
