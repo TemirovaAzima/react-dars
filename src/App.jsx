@@ -1,9 +1,12 @@
 import React from 'react'
-import JsxRules from './components/JsxRules.jsx'
+import Salomlashish from './components/Salomlashish.jsx'
+import  ProductInfo from './components/ProductInfo.jsx'
 function App(){
+
     return(
         <div>
-        <JsxRules/>
+            <Salomlashish/>
+            <ProductInfo/>
         </div>
     )
 }
